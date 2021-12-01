@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    height: 80px;
+}
+
+.logoSpotify {
+    cursor: pointer;
+    width: 132px;
+    height: 41px;
+}
+
+.flexbox1 {
+    padding: 20px 8.5%;
+}
+
+
+.flexbox2 {
+    display:flex;
+    align-items: center;
+    margin-right: 53px;
+}
+
+
+
+.listNav li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    margin-right: 30px;
+    font-weight:700;
+}
+
+.listNav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.listNav li a:hover {
+    color: #1ed760;
+}
+
+
+.img-Mobile-Tablet {
+    background-color: #2941AB;
+    height: 841px;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-repeat: no-repeat;
+    background-position: 60% 15%;
+    background-size: 200%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main {
+    width: 100%;
+    height: 100%;
+}    
+
+h1 {
+    color: #1ed760;
+    width: 754px;
+    font-size: 94px;
+    line-height: 104px;
+    padding-bottom: 24px;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #1ed760;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    width: 450px;
+}
+
+.DownloadButton {
+    cursor: pointer;
+    width: 216px;
+    height: 48px;
+    background: #1ed760;
+    border-radius: 500px;
+    border: none;
+    margin-top: 30px;
+}
+
+.align {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-bottom: 70px;
+}
+
+.DownloadButton a {
+    color: #2941AB;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: inherit;
+}
+
+.DownloadButton:hover {
+    background:#2DE26D;
+    width: 220px;
+    height: 50px;
+}
+
+.DownloadButton a:hover {
+
+}
+
+footer {
+    width: 100%;
+    height: 450px;
+    background: black;
+}
+
+#logoFooter {
+    padding: 70px 8.5%;
+    width: 250px;
+}
+
+.bloco {
+    display:flex;
+    flex-direction: row;
+}
+
+.empresa {
+    width: 200px;
+    height: 298px;
+    margin-top: 90px;
+}
+
+.comunidades {
+    width: 200px;
+    height: 298px;
+    margin-top: 90px;
+}
+
+.linksuteis {
+    width: 200px;
+    height: 298px;
+    margin-top: 90px;
+}
+.textFooter {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+
+.linksuteis li:last-child {
+    width: 150px;
+}
+
+.textFooter:hover {
+    color:#1ed760;
+}
+
+h3 {
+    color: #919496;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1.4;
+    font-family: 'poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    height: 100%;
+}
+
+.listFooter {
+    padding: 10px 0;
+}
+
+
+.logoInstagramTwitterFacebook {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 220px;
+}
+
+.boxlogo {
+   width: 54px;
+   height: 54px;
+   border-radius: 50%;
+   background: #222326;
+   align-items: center;
+   display: flex;
+   margin-right: 15px;
+   justify-content: center; 
+}
+
+.boxlogo img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.listTermos {
+    margin-left: 80px;
+}
+
+.listTermos li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration:none;
+    font-family: 'poppins', sans-serif;
+}
+
+.listTermos li a {
+    text-decoration: none;
+    color: #919496;
+    font-size: 12px;
+}
+
+
+.listTermos a:hover {
+    color:#1ed760;
+}
+
+
+.termos nav {
+    display:flex;
+}
+
+.teste {
+    color: #919496;
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 335px;
+    text-decoration: none;
+}
+
+#brasil {
+    color: #919496;
+    text-decoration: none;
+    margin-left: 55px;
+}
+
+
+
+.iconbr, .copyrightIcon {
+    width: 12px;
+    height: 13px; 
+    margin-right: 10px;  
+}
+
